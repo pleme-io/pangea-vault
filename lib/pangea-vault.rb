@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Vault; module Types; end; end; end; end
+
 # Vault resources
 require_relative 'pangea/resources/vault_ad_secret_backend/resource'
 require_relative 'pangea/resources/vault_ad_secret_library/resource'
